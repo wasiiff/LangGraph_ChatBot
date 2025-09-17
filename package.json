@@ -1,0 +1,24 @@
+{
+  "name": "cli_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon index.js",
+    "hello": "nodemon helloGraph.js",
+    "sports": "nodemon domainSpecific.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/google-genai": "^0.2.18",
+    "@langchain/langgraph": "^0.4.9",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "readline": "^1.3.0"
+  }
+}
