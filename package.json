@@ -8,7 +8,8 @@
     "bot": "nodemon index.js",
     "hello": "nodemon helloGraph.js",
     "sports": "nodemon domainSpecific.js",
-    "math": "nodemon mathsbot.js"
+    "math": "nodemon mathsbot.js",
+    "cal": "nodemon calculator.js"
   },
   "keywords": [],
   "author": "",
